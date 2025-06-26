@@ -1,0 +1,28 @@
+{
+  "name": "VAJIRA-MD-X",
+  "description": "VAJIRA-MD-X has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️",
+  "logo": "https://pomf2.lain.la/f/aqi35mmg.jpg",
+  "keywords": ["vajiramd", "bot", "whatsapp bot", "multi device", "vajira-md"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+            "description": "Type the Session-ID you got from scaning QR",
+            "required": true,
+            "value": "put session id here"
+        },
+    "MODE": {
+            "description": "You need to change number reply mode put below nonbutton or you need to change button mote put below button/ ඔබට අංක මගින් බොට් ක්ටියා කිරීමට පහත කොටුවෙහි nonbutton ලෙස ටයිප් කරන්න නැතහොත් බටන්ස් මගින් ක්‍රියා කිරිමට අවශ්‍යනම් පහත කොටුවෙහි button ලෙස ටයිප් කරන්න",
+            "required": true,
+            "value": "nonbutton"
+        }
+    },
+         "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+  
+  
+}
