@@ -1,9 +1,9 @@
 {
-"name": "VAJIRA-MD",
-"version": "11.3.0",
-"main": "session/start.js",
-"scripts": {
-"preinstall": "node session/decode.js",
-"start": "node session/start.js"
-}
+  "name": "VAJIRA-MD",
+  "version": "11.3.0",
+  "main": "session/start.js",
+  "scripts": {
+    "preinstall": "node session/decode.js",
+    "start": "node session/start.js"
+  }
 }
